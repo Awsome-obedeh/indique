@@ -11,6 +11,7 @@ import SliderShow from "@/components/SliderShow";
 import QuickView from "@/components/QuickView";
 import Line from "@/components/Line";
 import CardList from "@/components/Texture";
+import VideoAd from "@/components/VideoAd";
 export default function Home() {
   return (
     <>
@@ -25,11 +26,16 @@ export default function Home() {
         <p className="flex items-center gap-3 text-black capitalize "><span className="text-2xl"> <LiaShippingFastSolid />     </span>   <span>Fast Free shipping</span></p>
         <p className="flex items-center gap-3 text-black capitalize "><span className="text-2xl">     <BiSolidShare /></span>    <span>30 days return and exchange</span></p>
       </div>
-      <SliderShow/>
-      <Line/>
-      <QuickView/>
+      <SliderShow />
+      <Line />
+      <QuickView />
+      <Line />
+      <CardList />
 
-      <CardList/>
+
+
+      {/* video */}
+     <VideoAd/>
     </>
 
 
