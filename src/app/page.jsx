@@ -10,6 +10,7 @@ import { BiSolidShare } from "react-icons/bi";
 import SliderShow from "@/components/SliderShow";
 import QuickView from "@/components/QuickView";
 import Line from "@/components/Line";
+import CardList from "@/components/Texture";
 export default function Home() {
   return (
     <>
@@ -27,6 +28,8 @@ export default function Home() {
       <SliderShow/>
       <Line/>
       <QuickView/>
+
+      <CardList/>
     </>
 
 

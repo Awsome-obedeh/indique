@@ -39,7 +39,7 @@ export default function SliderShow() {
     return (
 
         <>
-            <div className=' h-screen overflow-hidden '>
+            {/* <div className=' h-screen overflow-hidden '>
                 <div className='w-max h-full flex  transition-all ease-in-out duration-1000' style={{ transform: `translateX(-${current * 100}vw)` }}>
 
                     {
@@ -59,7 +59,18 @@ export default function SliderShow() {
                    Experience the pinnacle of luxury hair with Indique's Lotus Collection—an investment in beauty, quality, and heritage that<br>
                 </br> promises to elevate your hair game to extraordinary new heights.</p>
                 <Link href="/" className='border bg-black border-1 bg-dark border-white w-max px-10 py-3 text-white text-[12px]  text-bolder md:text-[15px] rounded-sm'>Discover The Collections</Link>
-            </div>
+            </div> */}
+
+<video width="100%" height="100%" muted playsInline autoPlay loop  preload="none">
+      <source src="/indique1.mp4" type="video/mp4" />
+      <track
+        src="/path/to/captions.vtt"
+        kind="subtitles"
+        srcLang="en"
+        label="English"
+      />
+      Your browser does not support the video tag.
+    </video>
         </>
 
 
